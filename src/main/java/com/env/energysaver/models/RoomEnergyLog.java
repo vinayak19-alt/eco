@@ -1,5 +1,6 @@
 package com.env.energysaver.models;
 
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 import jakarta.persistence.Entity;
@@ -111,6 +112,7 @@ public class RoomEnergyLog {
 				+ ", acEnergyKwh=" + acEnergyKwh + ", projectorEnergyKwh=" + projectorEnergyKwh + ", totalEnergyKwh="
 				+ totalEnergyKwh + ", room=" + room + "]";
 	}
+	
 	
 	
 }
